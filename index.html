@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intely</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6058597884.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="">
+
+                <h2><img class="logo" src="assets/logo.png" alt="logo" /> Intely</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#favorites"><i class="far fa-heart"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#notifications"><i class="far fa-bell"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#profile-name">Hugo Olafsson</a></li>
+                    <li class="nav-item">
+                        <a class="profile-image-link" class="nav-link" href="#profile-photo">
+                            <img class="circular-image" src="assets/profile-photo.jpg" alt="profile-photo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-sm-3">
+            <div class="sidebar">
+                <div>
+                    <ul class="sidebar-ul">
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-briefcase"></i> Tutoring</a></li>
+                        <li><a href="#"><i class="fas fa-book-open"></i> My courses</a></li>
+                        <li><a href="#"><i class="fas fa-graduation-cap"></i> Tests</a></li>
+                    </ul>
+                </div>
+
+                <!--<div class="">
+                    <div>
+                        <p>Download our mobile app</p>
+                        <div>intelymobile.com</div>
+                    </div>
+                    <h5>Advertisement here</h5>
+                </div>
+                <div>
+                     <img class="" src="assets/sidebar.png" alt="typing" />
+                    <div>
+                        <h5>Invite Friends</h5>
+                        <p>Get Free Months of Premium</p>
+                        <button class="btn btn-danger">Get the link</button>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div class="col-lg-7 col-sm-9">
+            <div class="row mainframe-row1">
+                <div class="col-lg-6 mainframe-row1-item1">
+                    <h4>
+                        Upcoming lessons
+                    </h4>
+                    <div class="upcoming-lessons-item p-1">
+                        <div class="upcoming-lessons-subitem1">
+                            <h5>Jun, 10</h5>
+                            <p>4:00 PM</p>
+                        </div>
+                        <div class="upcoming-lessons-subitem2">
+                            <h6>Tutoring, Algebra</h6>
+                            <p>Kiersten Lange</p>
+                        </div>
+                        <div class="upcoming-lessons-subitem3">
+                            <img class="circular-image" src="assets/girl.png" alt="girl-image">
+                        </div>
+                    </div>
+                    <div class="upcoming-lessons-item p-1">
+                        <div class="upcoming-lessons-subitem1">
+                            <h5>Jun, 10</h5>
+                        </div>
+                        <div class="upcoming-lessons-subitem2">
+                            <h6>School homework</h6>
+                            <p>Global history/ Analysis</p>
+                        </div>
+                        <div class="upcoming-lessons-subitem3">
+                            <img class="circular-image" src="assets/award.png" alt="award-image">
+                        </div>
+                    </div>
+                    <div class="upcoming-lessons-item p-1">
+                        <div class="upcoming-lessons-subitem1">
+                            <h5>Jun, 11</h5>
+                            <p>5:00 PM</p>
+                        </div>
+                        <div class="upcoming-lessons-subitem2">
+                            <h6>Tutoring, Franch Language</h6>
+                            <p>Pierre Hackett</p>
+                        </div>
+                        <div class="upcoming-lessons-subitem3">
+                            <img class="circular-image" src="assets/man.png" alt="man-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mainframe-row1-item2">
+                    <h6 class="leaderboard-heading">Leaderboard </h6>
+                    <table class="table table-sm table-borderless table-hover mt-4">
+                        <thead>
+                            <tr class="table-secondary">
+                                <th scope="col">Rank</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Best Score</th>
+                                <th scope="col">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td><img class="circular-small-image" src="assets/face1.png" alt="face1-image">
+                                    Pattrick
+                                    Alves Devano</td>
+                                <td>98</td>
+                                <td>2324</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><img class="circular-small-image" src="assets/face2.png" alt="face2-image">
+                                    Jeniffer
+                                    Hudson
+                                </td>
+                                <td>96</td>
+                                <td>2310</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><img class="circular-small-image" src="assets/face3.png" alt="face3-image">
+                                    Stevia
+                                    Rownders
+                                </td>
+                                <td>97</td>
+                                <td>2305</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td><img class="circular-small-image" src="assets/face4.png" alt="face4-image"> Sam
+                                    Anderson
+                                </td>
+                                <td>89</td>
+                                <td>2119</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr />
+                    <table class="table table-sm table-borderless table-hover">
+                        <tbody>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td><img class="circular-small-image" src="assets/face5.png" alt="face5-image">Jorge
+                                    Rodriguez
+                                </td>
+                                <td>82</td>
+                                <td>1998</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row mainframe-row2">
+                <div class="col-lg-5 mainframe-row2-item1">
+                    <h5>Spent Time</h5>
+                    <img class="spent-time-image" src="assets/graph1.jpg" alt="spent-time">
+                </div>
+                <div class="col-lg-6 mainframe-row2-item2">
+                    <h5>Your Courses </h5>
+                    <div class="row">
+                        <div class="col-5  courses-card-container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="circular-image" src="assets/art.png" alt="art">
+                                </div>
+                                <div class="col-8">
+                                    <p>Beginners</p>
+                                    <h6>Art and Design</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    by <img class="circular-small-image" src="assets/face1.png" alt="face1">
+                                </div>
+                                <div class="col-6">
+                                    <h6>Brad Stevens</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-5 courses-card-container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img class="circular-image" src="assets/workout.png" alt="workout">
+                                </div>
+                                <div class="col-8">
+                                    <p>Advanced</p>
+                                    <h6>Daily Workouts</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    by <img class="circular-small-image" src="assets/face2.png" alt="face2">
+                                </div>
+                                <div class="col-6">
+                                    <h6>Hailey Stuart</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mainframe-row3">
+                <div class="col-lg-6 mainframe-row3-item1">
+                    <h6>Skills</h6>
+                    <img class="skills-image" src="assets/graph2.gif" alt="graph2" />
+                </div>
+                <div class="col-lg-6 mainframe-row3-item2">
+                    <h6>Tasks</h6>
+                    <div class="row">
+                        <div class="col-1">
+                            <input type="checkbox" />
+                        </div>
+                        <div class="col-11">
+                            <p>Concise hsitory of Jend, Soedirman</p>
+                            <p>Due on 4:30PM, 3 Mar 2019 <span class="badge badge-pill badge-success">History</span>
+                            </p>
+                            <img class="circular-small-image" src="assets/face3.png" alt="face3"><span
+                                class="tasks-person-name">Mrs.
+                                Shakeera</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-1">
+                            <input type="checkbox" />
+                        </div>
+                        <div class="col-11">
+                            <p>Make 3 carricature on papper</p>
+                            <p>Due on 2:40PM, 28 Feb 2019 <span class="badge badge-pill badge-primary">Art</span>
+                            </p>
+                            <img class="circular-small-image" src="assets/face3.png" alt="face3"><span
+                                class="tasks-person-name">Mr. Robert
+                                Sergio</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>See All Tasks</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-sm-9">
+            <div class="row">
+                <div class="col-12 calendar">
+                    <div class="month">
+                        <h6 class="calendar-heading">September 2020 <i
+                                class="fas calendar-icon fa-arrow-circle-left"></i><i
+                                class="fas calendar-icon fa-arrow-circle-right"></i></h6>
+
+                    </div>
+
+                    <ul class="weekdays">
+                        <li><strong>S</strong></li>
+                        <li><strong>M</strong></li>
+                        <li><strong>T</strong></li>
+                        <li><strong>W</strong></li>
+                        <li><strong>T</strong></li>
+                        <li><strong>F</strong></li>
+                        <li><strong>S</strong></li>
+                    </ul>
+
+                    <ul class="days">
+                        <li><span class="previous-future-days">25</span></li>
+                        <li><span class="previous-future-days">26</span></li>
+                        <li><span class="previous-future-days">27</span></li>
+                        <li><span class="previous-future-days">28</span></li>
+                        <li><span class="previous-future-days">29</span></li>
+                        <li><span class="previous-future-days">30</span></li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li><span class="active">11</span></li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                        <li>31</li>
+                        <li><span class="previous-future-days">1</span></li>
+                        <li><span class="previous-future-days">2</span></li>
+                        <li><span class="previous-future-days">3</span></li>
+                        <li><span class="previous-future-days">4</span></li>
+                        <li><span class="previous-future-days">5</span></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <h5>Homework progress</h5>
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="circular-big-image" src="assets/graph3.png" />
+                        </div>
+                        <div class="col-7">
+                            <h6>Biology</h6>
+                            <p>September, 7 Monday</p>
+                        </div>
+                        <div class="col-1">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="circular-big-image" src="assets/graph3.png" />
+                        </div>
+                        <div class="col-7">
+                            <h6>Physics</h6>
+                            <p>September, 7 Monday</p>
+                        </div>
+                        <div class="col-1">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="circular-big-image" src="assets/graph3.png" />
+                        </div>
+                        <div class="col-7">
+                            <h6>Chemistry</h6>
+                            <p>September, 8 Tuesday</p>
+                        </div>
+                        <div class="col-1">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h6>Goals</h6>
+                    <img src="assets/graph3.png" alt="graph3">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

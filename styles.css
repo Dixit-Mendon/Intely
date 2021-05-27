@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0 15px;
+}
+
+h5 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+hr {
+  margin: 0px;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.col-11 p {
+  margin: 0px;
+}
+
+p,
+td {
+  font-size: 0.7rem;
+  color: grey;
+  padding: 5px;
+}
+
+th {
+  font-size: 0.6rem;
+  color: rgb(77, 77, 77);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar {
+  background-color: rgb(233, 233, 233);
+  margin: -15px;
+  height: 60vh;
+  padding: 10px;
+}
+
+.sidebar-ul {
+  padding-left: 8px;
+}
+
+.sidebar-ul li {
+  height: 3rem;
+}
+
+.sidebar-ul li a {
+  text-decoration: none;
+  color: rgb(76, 75, 75);
+}
+
+.sidebar-ul li:hover {
+  background-color: rgb(172, 171, 171);
+}
+
+.mainframe-row2 {
+  padding-top: 25px;
+}
+
+.circular-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: rgb(221, 229, 235);
+}
+
+.circular-small-image {
+  width: 15x;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgb(221, 229, 235);
+}
+
+.circular-big-image {
+  width: 80px;
+  height: 80px;
+}
+
+.profile-image-link {
+  padding: 0;
+}
+
+.upcoming-lessons-item {
+  display: flex;
+  background-color: rgb(204, 236, 248);
+  margin-bottom: 8px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.upcoming-lessons-subitem1 {
+  width: 30%;
+}
+.upcoming-lessons-subitem2 {
+  width: 80%;
+}
+.upcoming-lessons-subitem3 {
+  width: 10%;
+}
+
+.leaderboard {
+  margin-left: 30px;
+  border: 7px solid rgb(245, 245, 245);
+  padding: 5px;
+}
+
+/* .leaderboard-heading {
+  display: inline-block;
+} */
+/* 
+.leaderboard-sideheading {
+  display: inline-block;
+  width: min-content;
+  position: relative;
+  left: 10px;
+} */
+
+.spent-time-image {
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.mainframe-row2-item1 {
+  box-sizing: border-box;
+}
+
+.mainframe-row2-item2 {
+  padding-top: 15px;
+  background-image: linear-gradient(to bottom right, white, rgb(208, 208, 208));
+}
+
+.courses-card-container {
+  background-color: white;
+  border-radius: 15px;
+  margin: 15px;
+  width: 50%;
+}
+
+.mainframe-row3 {
+  margin-top: 30px;
+}
+
+.skills-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tasks-person-name {
+  font-size: 0.6rem;
+  margin-left: 10px;
+  color: rgb(182, 182, 182);
+}
+
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Month header */
+.month {
+  width: 100%;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 2px 0px 2px 10px;
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12.6%;
+  color: #073b33;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0px 10px 10px;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 12.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #073b33;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #073b33;
+  color: white;
+  border-radius: 10px;
+}
+
+.days li .previous-future-days {
+  color: rgb(158, 157, 157);
+}
+
+.calendar-heading {
+  color: #073b33;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0.2rem 0.5rem 1rem 0rem;
+}
+
+.calendar-icon {
+  font-size: 1.5rem;
+}
+
+.col-12 {
+  padding: 0;
+}
